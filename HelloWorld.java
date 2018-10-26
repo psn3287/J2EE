@@ -13,6 +13,26 @@ public class HelloWorld {
 
     public static void main(String args[]) {
         System.out.println("Inside HelloWorld");
+        
+        Book a = new Book();
+        a.setBookName("Think & Grow");
+        
+        System.out.println(a.getBookName());
     }
  
+}
+
+class Book{
+ String bookName;
+
+    public String getBookName() {
+        return bookName;
+    }
+
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
+    }
+ 
+
+
 }
