@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -36,3 +37,23 @@ class Book{
 
 
 }
+=======
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+//package HelloWorld;
+
+/**
+ *
+ * @author Pritish
+ */
+public class HelloWorld {
+
+    public static void main(String args[]) {
+        System.out.println("Inside HelloWorld");
+    }
+ 
+}
+>>>>>>> 4e6d62f57de9bce5a65e18c525c6133747e80d53
