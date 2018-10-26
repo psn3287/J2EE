@@ -1,0 +1,14 @@
+<project name="Ant-Test" default="main" basedir=".">
+    <!-- Sets variables which can later be used. -->
+    <!-- The value of a property is accessed via ${} -->
+    <property name="root" location="" />
+   
+
+    <!-- Deletes the existing build, docs and dist directory-->
+    <target name="ignore world message">
+      <echo message="testing ignoring message"></echo>
+    </target>
+	<target name="show root path">
+      <echo message="${root}"></echo>
+    </target>
+</project>
